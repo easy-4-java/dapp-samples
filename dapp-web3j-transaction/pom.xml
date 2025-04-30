@@ -114,6 +114,12 @@
             <artifactId>Magician-Scanning</artifactId>
             <version>1.0.12</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.yuyenews/Magician-Web3 -->
+        <dependency>
+            <groupId>com.github.yuyenews</groupId>
+            <artifactId>Magician-Web3</artifactId>
+            <version>1.0.5</version>
+        </dependency>
 
         <!--Ton4j End-->
         <!-- For springdoc -->
