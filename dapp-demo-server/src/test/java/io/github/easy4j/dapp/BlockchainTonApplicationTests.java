@@ -1,0 +1,13 @@
+package io.github.easy4j.dapp;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class BlockchainTonApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}

@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.github.hiwepy</groupId>
+        <groupId>io.github.easy4j</groupId>
         <artifactId>dapp-samples</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -14,7 +14,7 @@
     <dependencies>
         <!-- For Commons -->
         <dependency>
-            <groupId>com.github.hiwepy</groupId>
+            <groupId>io.github.easy4j</groupId>
             <artifactId>dapp-base-api</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -34,7 +34,7 @@
         </dependency>
         <!-- For  -->
         <dependency>
-            <groupId>com.github.hiwepy</groupId>
+            <groupId>io.github.easy4j</groupId>
             <artifactId>hitool-core</artifactId>
         </dependency>
         <!-- For Ton4j : https://github.com/neodix42/ton4j -->
@@ -224,7 +224,7 @@
                 <artifactId>web3j-maven-plugin</artifactId>
                 <version>4.12.1</version>
                 <configuration>
-                    <packageName>com.github.hiwepy.dapp.model</packageName>
+                    <packageName>io.github.easy4j.dapp.model</packageName>
                     <sourceDestination>src/main/java/generated</sourceDestination>
                     <nativeJavaType>true</nativeJavaType>
                     <outputFormat>java,bin</outputFormat>
@@ -246,7 +246,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>true</executable>
-                    <mainClass>com.github.hiwepy.dapp.DAppApplication</mainClass>
+                    <mainClass>io.github.easy4j.dapp.DAppApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

@@ -100,7 +100,7 @@
         <!--log4j2 自带过滤日志-->
 
 		<!-- 应用系统日志过滤 -->
-		<Logger name="com.github.hiwepy" level="DEBUG" additivity="true"/>
+		<Logger name="io.github.easy4j" level="DEBUG" additivity="true"/>
 
     </Loggers>
 
